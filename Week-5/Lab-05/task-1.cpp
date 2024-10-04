@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int minimum(int, int);
+int minimum(int, int);    //Function Declaration
 
 main()
 {
 
-    float min;
+    float min;    //varaible 
     float num1;
     float num2;
     cout << "Enter the first number : ";
