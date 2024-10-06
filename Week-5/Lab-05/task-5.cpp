@@ -1,10 +1,12 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-float value(float x,float y,float z);
+
+float value(float x,float y,float z);    //function declaration
+
 main()
 {
-    float a,b,c;
+    float a,b,c;            //variable declaration
     cout << "enter first";
     cin >> a;
     cout << "enter second";
