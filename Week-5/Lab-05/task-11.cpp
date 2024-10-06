@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-string calculatePoolState(int, int, int, float);
+string calculatePoolState(int, int, int, float);    //function declaration
 
 main()
 {
 
-    int volume;
-    int flowRateFirst;
-    int flowRateSecond;
-    float time;
+    int volume;            //variable declaration
+    int flowRateFirst;     //variable declaration
+    int flowRateSecond;    //variable declaration 
+    float time;            //variable declaration
     cout << "Enter volume of the pool in liters : ";
     cin >> volume;
     cout << "Enter flow rate of the first pipe per hour : ";
@@ -18,7 +18,7 @@ main()
     cin >> flowRateSecond;
     cout << "Enter hours that the worker is absent : ";
     cin >> time;
-    string result = calculatePoolState(volume, flowRateFirst, flowRateSecond, time);
+    string result = calculatePoolState(volume, flowRateFirst, flowRateSecond, time);    //passing values to fuction and storing returned value into variable
     cout << result;
 
 }
