@@ -2,19 +2,19 @@
 #include <cmath>
 using namespace std;
 
-float convertRadian(float);
-float calculateHeight(float, float);
+float convertRadian(float);            //function declaration 
+float calculateHeight(float, float);   //function declaration  
 
 main()
 {
-    float base;
-    float degree;
+    float base;                                                        //variable declaration
+    float degree;                                                      //variable declaration
     cout << "Enter the distance from the base of tree (in feet): ";
     cin >> base;
     cout << "Enter the angle of elevation (in degree) : ";
     cin >> degree;
-    float radian = convertRadian(degree);
-    float height = calculateHeight(base, radian);
+    float radian = convertRadian(degree);                              //Function to convert into radian
+    float height = calculateHeight(base, radian);                      //Function to calculate height
     cout << "The height of the tree is : " << height;
 
 }
