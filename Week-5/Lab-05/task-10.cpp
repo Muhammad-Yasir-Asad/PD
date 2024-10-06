@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-string firstDigit(int);
-string digitToText(int);
+string firstDigit(int);    //function declaration
+string digitToText(int);   //function declaration
 
 main()
 {
 
-    int number;
-    cout << "Enter a number (1-99) : ";
-    cin >> number;
+    int number;                            //variable declaration
+    cout << "Enter a number (1-99) : ";    //printing text on screen
+    cin >> number;                         //input from user
     
     if(number >= 0 & number <=9)
     {
